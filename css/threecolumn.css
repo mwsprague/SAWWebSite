@@ -1,0 +1,97 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    color:#000;
+    background: #ffffff;
+}
+#body {
+    width:960px;
+    margin:0 auto;
+    background:#ffffff;
+}
+#header {
+    padding:10px;
+    background-color: rgba(47, 56, 131, 0.95);
+    text-align: center;
+    color: rgba(192, 192, 192, 0.85);
+}
+
+#menu {
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#FFFFFF;
+    margin-bottom:20px;
+    color:#FFFFFF;
+    text-align:center;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-variant:small-caps;
+    /*background-image:url(../img/background/back.png);*/
+}
+#menu a {
+    color: #092023;
+    text-decoration:none;
+    padding:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+#menu a:hover {
+    border-bottom:1px solid #ffffff;
+    border-left:1px solid #243482;
+    border-right:1px solid #243482;
+    padding-left:9px;
+    padding-right:9px;
+    color:#000000;
+    background-color:#FFFFFF;
+    /*background-image:url(../img/background/hover.jpg);*/
+}
+
+
+#content-1 {
+    float:left;
+    width:220px;
+    padding:10px;
+    background: #ffffff;
+}
+#content-2-1 {
+    float:left;
+    width:460px;
+    padding:10px;
+    background-color: white;
+}
+#content-2-2 {
+    float:right;
+    width:220px;
+    padding:10px;
+    background: #5b98ff;
+}
+
+#content-2-2 h3
+{
+    margin:4px;
+}
+
+#content-2-2 h4
+{
+    margin:2px;
+}
+
+#content-2-2 p
+{
+    margin:2px;
+    margin-left:10px ;
+}
+
+#footer {
+    clear:both;
+    padding:10px;
+    background: #5b98ff;
+}
+
+p q
+{
+
+}

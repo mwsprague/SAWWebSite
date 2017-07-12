@@ -1,0 +1,118 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 100% georgia, sans-serif;
+    line-height: 1.88889;
+    color: #555753;
+    margin: 20px;
+    padding: 0;
+}
+
+h1
+{
+    font-size: 300%;
+}
+#pageHeader
+{
+    text-align: center;
+    color: rgba(192, 192, 192, 0.85);
+    background-color: rgba(47, 56, 131, 0.95);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#menu {
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#FFFFFF;
+    margin-bottom:20px;
+    color:#FFFFFF;
+    text-align:center;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-variant:small-caps;
+    background-image:url(../img/background/back.png);
+}
+#menu a {
+    color:#FFFFFF;
+    text-decoration:none;
+    padding:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+#menu a:hover {
+    border-bottom:1px solid #ffffff;
+    border-left:1px solid #243482;
+    border-right:1px solid #243482;
+    padding-left:9px;
+    padding-right:9px;
+    color:#000000;
+    background-color:#FFFFFF;
+    background-image:url(../img/background/hover.jpg);
+}
+
+
+.shadowbox
+{
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+}
+
+.shadowtext
+{
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+#box1
+{
+    position:relative;
+    width:220px;
+    height: 400px;
+    padding:10px;
+    border:5px solid gray;
+    margin:0px;
+}
+
+#box2
+{
+    position:absolute;
+    top:388px;
+    right:0;
+    width:200px;
+    height: 400px;
+    padding:10px;
+    border:5px solid gray;
+    margin:0px;
+}
+#box3
+ {
+     position:absolute;
+     top:292;
+     right:200;
+     width:600px;
+     height: 400px;
+     padding:10px;
+     border:5px solid gray;
+     margin:0px;
+ }
+
+#contentwrapper{
+    float: left;
+    width: 100%;
+}
+
+#contentcolumn{
+    position:relative;
+    top:0px;
+    right:100;
+    width:400px;
+    height: 400px;
+    padding:10px;
+    border:5px solid gray;
+    margin:0px;
+}
