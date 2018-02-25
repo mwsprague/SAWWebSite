@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7cfdc59c-ec60-460f-a2bf-39938661bf52" name="GoDaddy" url="http://spragueaudioworks.com/">
+        <fileTransfer host="spragueaudioworks.com" port="21" rootFolder="/spragueaudioworks" password="dfeddfeedfdadfc3dfcddfcddfd3dfdddfc6dfd9df9fdf93df8b" username="mwsprague">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
